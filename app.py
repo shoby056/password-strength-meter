@@ -56,7 +56,7 @@ def check_password_strength(password):
 # Streamlit UI with Block Background
 # st.markdown("<div class='main-container'>", unsafe_allow_html=True)
 
-st.markdown("<h1 class='main-title'>🔐 Ultimate Password Strength Meter</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='main-title'>🔐 Password Strength Meter</h1>", unsafe_allow_html=True)
 
 password = st.text_input("Enter your password:", type="password")
 
